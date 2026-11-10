@@ -1,0 +1,74 @@
+# ── Notas personales (no se suben) ──────────────────────────────
+explanation.md
+
+# ── Claude y otros asistentes ───────────────────────────────────
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+.mcp.json
+
+# ── Variables de entorno y secretos ─────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p8
+*.p12
+*.jks
+*.mobileprovision
+
+# ── Python (backend/, onboard/, protocol/) ──────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ── Datos locales del backend ───────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+media/
+
+# ── ArduPilot / SITL ────────────────────────────────────────────
+*.tlog
+*.tlog.raw
+*.bin
+*.BIN
+logs/
+eeprom.bin
+mav.parm
+terrain/
+
+# ── Node / Expo (app) ───────────────────────────────────────────
+node_modules/
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.kotlin/
+.metro-health-check*
+*.tsbuildinfo
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+/frontend-trial/example/
+/frontend-trial/ios/
+/frontend-trial/android/
+/app/example/
+/app/ios/
+/app/android/
+
+# ── Sistema y editores ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
