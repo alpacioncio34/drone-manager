@@ -152,6 +152,20 @@ Detalle (contexto, alternativas y consecuencias) en [docs/decisiones.md](docs/de
 | **3. Hardware** | (a) Servicio de a bordo en la Raspberry Pi con SITL en el PC, por red. (b) Raspberry Pi con la controladora real, en banco y sin hélices. (c) Vuelo real. |
 | **Trabajo futuro** | Red neuronal (mapa del entorno, seguimiento visual), vídeo (WebRTC), conexión 4G, MQTT, despliegue en la nube. |
 
+## Documentación
+
+| Documento | Contenido |
+|---|---|
+| [docs/decisiones.md](docs/decisiones.md) | Decisiones de arquitectura (ADR) |
+| [docs/acciones-y-protocolo.md](docs/acciones-y-protocolo.md) | Catálogo de acciones y mensajes |
+| [backend/README.md](backend/README.md) | Backend: modelo de datos y autenticación |
+| [docs/revision-2026-11-15.md](docs/revision-2026-11-15.md) | Informe de revisión: cambios, incoherencias y huecos de viabilidad |
+| [docs/viabilidad-arquitectura-y-protocolos.md](docs/viabilidad-arquitectura-y-protocolos.md) | Dónde vive el backend y viabilidad de cada protocolo |
+| [docs/plan-de-pruebas.md](docs/plan-de-pruebas.md) | Niveles de prueba, matriz de fallos y pruebas con ESP32 |
+| [docs/pendientes.md](docs/pendientes.md) | Listas de pendientes por tema |
+| [docs/futuro-voz-a-comandos.md](docs/futuro-voz-a-comandos.md) | Idea: órdenes por voz |
+| [docs/futuro-agente-ia-a-bordo.md](docs/futuro-agente-ia-a-bordo.md) | Idea: agente de IA a bordo |
+
 ## Estructura del repositorio
 
 Situación actual:
